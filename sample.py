@@ -6,4 +6,4 @@ def is_odd(num):
 
 print("Welcome Guys!!")
 print(sample())
-print(is_odd(input('Enter a number: ')))
+print(is_odd(int(input('Enter a number: '))))
