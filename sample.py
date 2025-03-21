@@ -6,4 +6,8 @@ def is_odd(num):
 
 print("Welcome Guys!!")
 print(sample())
-print(is_odd(int(input('Enter a number: '))))
+
+if is_odd(int(input('Enter a number: '))):
+    print('The number is odd.')
+else:
+    print('The number is even.')
