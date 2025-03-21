@@ -1,5 +1,5 @@
 def sample():
-    print("This is a sample python file.")
+    return "This is a sample python file."
 
 print("Welcome Everyone!")
-sample()
+print(sample())
